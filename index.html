@@ -1,0 +1,76 @@
+<html !DOCTYPE>
+  <head>
+    <meta charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/simple-sidebar.css">
+    <link type="text/css" rel="stylesheet" href="css/ bootstrap-theme.css">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <title>Objeto de Aprendizaje</title>
+  </head>
+  <body>
+   <div id="wrapper">
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Start Bootstrap
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Dashboard</a>
+                </li>
+                <li>
+                    <a href="#">Shortcuts</a>
+                </li>
+                <li>
+                    <a href="#">Overview</a>
+                </li>
+                <li>
+                    <a href="#">Events</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle" >
+                        	<span class="glyphicon glyphicon-align-justify"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 class="text-center">Biernvenido al Objeto de Aprendizaje</h1>
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+   				<div class="panel panel-primary">
+					<div class="panel-heading">Panel heading without title</div>
+  						<div class="panel-body">
+    					Panel content
+  						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+     	<script src="js/jquery.js"></script>
+    	<!-- Bootstrap Core JavaScript -->
+    	<script src="js/bootstrap.min.js"></script>
+        <script>
+    		$("#menu-toggle").click(function(e) {
+        	e.preventDefault();
+        	$("#wrapper").toggleClass("toggled");
+    		});
+    	</script>
+  </body>
+</html>
